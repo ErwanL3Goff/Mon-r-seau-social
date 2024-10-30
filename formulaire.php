@@ -23,6 +23,19 @@
     </form>
 
     <?php
+        var_dump($_POST);
+
+        $nom = $_POST['nom'];
+        $email = $_POST['email'];
+        $mot_de_passe = $_POST['mot_de_passe'];
+
+
+        $host = "http://localhost:8000/formulaire.php";
+        $user = "Erwan Le Goff";
+        $pass = "Cortex91";
+        $db = "ma_base";
+
+        ?>
 
    
 
