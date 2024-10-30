@@ -8,15 +8,15 @@
 </head>
 <body>
     <header>
-        <div class="logo">MonRéseau</div>
+        <div class="logo">Metal Gear Rising</div>
         <nav>
             <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#profil">Profil</a></li>
-                <li><a href="#messages">Messages</a></li>
-                <li><a href="#notifications">Notifications</a></li>
-                <li><a href="#parametres">Paramètres</a></li>
-                <li><a href="#deconnexion" class="logout">Déconnexion</a></li>
+                <li><a href="main_menu.php">Accueil</a></li>
+                <li><a href="profil.php">Profil</a></li>
+                <li><a href="messages.php">Messages</a></li>
+                <li><a href="notifications.php">Notifications</a></li>
+                <li><a href="parametres.php">Paramètres</a></li>
+                <li><a href="deconnexion.php" class="logout">Déconnexion</a></li>
             </ul>
         </nav>
     </header>
