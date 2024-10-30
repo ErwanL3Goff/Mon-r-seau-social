@@ -10,7 +10,7 @@
     <div>
         <div class="form-container">
             <h2>Connexion</h2>
-            <form action="process_login.php" method="POST">
+            <form action="main_menu.php" method="POST">
                 <label for="username_login">Nom d'utilisateur :</label>
                 <input type="text" id="username_login" name="username" required>
                 

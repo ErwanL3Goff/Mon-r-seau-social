@@ -27,7 +27,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST['username'];
     $password = $_POST['password'];
-    if ($username == "test" && $password == "1234") {
+    if ($username == "Erwan Le Goff" && $password == "Cortex91") {
         echo "<h2>Connexion réussie</h2>";
         echo "<p>Bienvenue, $username !</p>";
     } else {

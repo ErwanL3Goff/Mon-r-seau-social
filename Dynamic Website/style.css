@@ -5,7 +5,9 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #f0f2f5;
+    background-image: url(images/badapple.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .container {
