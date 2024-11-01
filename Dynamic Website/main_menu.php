@@ -25,12 +25,12 @@
         <section id="accueil">
             <h2>Fil d'actualités</h2>
             <div class="post">
-                <h3>Utilisateur A</h3>
-                <p>Voici une publication récente de l'utilisateur A.</p>
+                <h3>Bruce Lee</h3>
+                <p>Le bois ne rend pas les coups.</p>
             </div>
             <div class="post">
-                <h3>Utilisateur B</h3>
-                <p>Voici une publication récente de l'utilisateur B.</p>
+                <h3>Studio Bastiano</h3>
+                <p>Les hommes grimpent dans ce bolide.</p>
             </div>
         </section>
 

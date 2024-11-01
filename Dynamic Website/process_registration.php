@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire d'inscription et de connexion</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header>
+        <div class="logo">Metal Gear Rising</div>
+    </header>
     <div>
         <div class="form-container">
             <h2>Connexion</h2>
             <form action="main_menu.php" method="POST">
                 <label for="username_login">Nom d'utilisateur :</label>
                 <input type="text" id="username_login" name="username" required>
-                
+
                 <label for="password_login">Mot de passe :</label>
                 <input type="password" id="password_login" name="password" required>
-                
+
                 <button type="submit">Se connecter</button>
             </form>
             <?php
@@ -32,4 +37,5 @@
         </div>
     </div>
 </body>
+
 </html>

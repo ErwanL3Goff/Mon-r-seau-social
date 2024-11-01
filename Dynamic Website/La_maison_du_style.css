@@ -43,11 +43,12 @@ nav ul li a:hover, nav ul li a.logout {
     background-color: #4a69bd;
 }
 
+
 .logout {
     background-color: #e74c3c;
 }
 
-/* Contenu principal */
+
 .container {
     max-width: 800px;
     margin: 40px auto;
@@ -67,7 +68,7 @@ p, .section-content {
     line-height: 1.6;
 }
 
-/* Section spécifique */
+
 .section-content {
     font-size: 16px;
 }
