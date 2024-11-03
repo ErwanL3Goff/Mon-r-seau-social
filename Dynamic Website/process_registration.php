@@ -25,6 +25,8 @@
                 <button type="submit">Se connecter</button>
             </form>
             <?php
+            session_start();
+            include 'Data-base.php';
             if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $username = $_POST['username'];
                 $email = $_POST['email'];
@@ -33,6 +35,7 @@
                 echo "<p>Nom d'utilisateur : $username</p>";
                 echo "<p>Email : $email</p>";
             }
+            $conn->close();
             ?>
         </div>
     </div>

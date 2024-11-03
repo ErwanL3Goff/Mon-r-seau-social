@@ -29,6 +29,8 @@
             </form>
         </div>
         <?php
+        session_start();
+        include 'Data-base.php';
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $username = $_POST['username'];
             $password = $_POST['password'];
@@ -40,6 +42,7 @@
                 echo "<p>Nom d'utilisateur ou mot de passe incorrect.</p>";
             }
         }
+        $conn->close();
         ?>
 
 </html>
